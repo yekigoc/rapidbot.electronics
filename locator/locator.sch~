@@ -1,0 +1,356 @@
+EESchema Schematic File Version 2
+LIBS:max498,max232ti_n,max232ti,max187,matsusada,lvds-2,lvds,lundahl,luminary-micro,lumiled-2,lumiled,lucorca,ltd5122,ltc_swr,ltc6900,lph-7366,lpc213x,lpc210x,lp2989-so8,lp2986im-33,logo_ru,lmopamp,lmh1251,lmd1820x,lm2937,lm1881,lm393d,llk5_library,little-logic,linkup-l1110,linear-technology-3,linear-technology-2,linear-technology,linear4,linear3,linear2,lf2403,lexx,led_rgb,led,lcd_parallel,lcd_nokia_6100,lcd_n3200_lph7677,lcd_modules_ece,lcd_128x64_led_backlight,lcd_2x16_led_backlight,lattice,lasser,laipac_technologie,l6219,l5973d,l4960,l293e,kzh20_lithium_batterie_holder,kingfont_sdcmf10915w010_covek,kingfont_sdcmf10915w010,kingbright,keystone,keypad4x4_ece,KEY_B,jumper,jt9s-1p,jst-ph,jst_eph,jfw-pwm1,jensen,ite-it81xx,isd-new-1,isd-new,isd,isabellen,is471f,is61c1024al,irf-2,irf,ir2112,ipc-7351-transistor,ipc-7351-resistor,ipc-7351-inductor,ipc-7351-diode,ipc-7351-capacitor,io-warrior,inventronik,intersil,intel-strongarm,infineon-tricore,infineon_tle_power,infineon,inductor-toko,inductors-jwmiller,inductor-nkl,inductor-coilcraft,ieee488,ics512,ic-bbd,i2c_95xx,i2c,hopf,HONY4000,HONY3000,HONEYWEL,honda2-0,holtek,hirose-fx2-100-2,hirose-fx2-100,hirose2,hirose,heatsink-aavid,hdsp,HD15_B,hc11,HBridge,graphic,gpsms1,gm862,gennum,gameboy,fze1066,ftdichip-3,ftdichip-2,ftdichip-1,ftdichip,ftdi4,ftdi3,ftdi2,ftdi,ft2232c,ft8u100ax,fsoncore,freescale-mc68hc908jb,freescale-accelerometer,flashmemory,fitre,filter-coilcraft,fichte_div,fetky,fairchild-tinylogic,evision,everlight,ev9200g,etx-board,er400trs,EP_molex_6410_7395,ep_molex_6410_7395-02,enfora_module,emerging,ember,Elma,elm,elec-unifil,edge-156,ecl,dsymbols,ds(s)30655,dsp_texas,dsp56f8346,dsp56f8323,ds1813_revised,ds1307_pcf8583,dports,dpads,dome-key,dodomicro,dodolcd,divers,displaytech_(chr),displayled8x8,display-lcd-lxd,display-lcd,display-kingbright,display_ea_dog-m,dips082,dip204b-4nlw,diode-1,diode,digital-transistors,dframes,dcsocket,dallas-rtc,dallas-1,dallas600,dallas,cypressmicro,cypress-fx2,cygnal_mini,cygnal,cyan,cy7c1009b,cts,crystal-epson,crystal,con-yamaichi-cf-2,con-yamaichi-cf,con-yamaichi,con-wago,con-vg,converter,con-usb-3,con-usb-2,con-usb,controller-micro_atmel_jd,con-subd,con-riacon,con-ria182,conrad,con-pulse,con-ptr500+,con-phoenix-500-mstba6,con-phoenix-381_l,con-phoenix-250,con-pci_express(pci-e),con-omnetics,con_nokia,conn-hirose,con-neutrik_ag,connect,con-molex-2,con-molex,con-jst2,con-jack,con-hirose,con-headers-jp,con-hdrs40,con-harting-ml,con-gr47_gsm_module,con-faston,con-erni,con-cypressindustries,con-cuistack,con-cpci,con-amp-micromatch,con-amphenol,con-amp,comfile,coldfire,cny70,cmos_ieee,cml-micro,c-max,cirrus-mpu,cirrus-3,cirrus-2,cirrus,chipcon-ti,chipcon,c-control,cap-vishay-153clv,CapSiem,cap-pan40,cap-pan,Cap-M-ZN,Cap-M-Supreme,cap-master,Cap-M,Cap-Gold,Cap-Dreh,Cap-Audyn-Sn,CapAudyn,Capacitor-Wima-SMD-MP3-Y2-250v,Capacitor-Wima-SMD6560-1000v,Capacitor-Wima-SMD6560-630v,Capacitor-Wima-SMD6560-400v,Capacitor-Wima-SMD6560-250v,Capacitor-Wima-SMD6560-100v,Capacitor-Wima-SMD6560-63v,Capacitor-Wima-SMD6560-40v,Capacitor-Wima-SMD5045-1000v,Capacitor-Wima-SMD5045-630v,Capacitor-Wima-SMD5045-400v,Capacitor-Wima-SMD5045-250v,Capacitor-Wima-SMD5045-100v,Capacitor-Wima-SMD5045-63v,Capacitor-Wima-SMD5045-40v,Capacitor-Wima-SMD4036-630v,Capacitor-Wima-SMD4036-400v,Capacitor-Wima-SMD4036-250v,Capacitor-Wima-SMD4036-100v,Capacitor-Wima-SMD4036-63v,Capacitor-Wima-SMD4036-40v,Capacitor-Wima-SMD2824-250v,Capacitor-Wima-SMD2824-100v,Capacitor-Wima-SMD2824-63v,Capacitor-Wima-SMD2020-250v,Capacitor-Wima-SMD2020-100v,Capacitor-Wima-SMD2020-63v,Capacitor-Wima-SMD1812-250v,Capacitor-Wima-SMD1812-100v,Capacitor-Wima-SMD1812-63v,Capacitor-Wima-MP3-Y2-250v,Capacitor-Wima-MP3-X2-275v,Capacitor-Wima-MP3-X2-250v,Capacitor-Wima-MKS4-2000v,Capacitor-Wima-MKS4-1500v,Capacitor-Wima-MKS4-1000v,Capacitor-Wima-MKS4-630v,Capacitor-Wima-MKS4-400v,Capacitor-Wima-MKS4-250v,Capacitor-Wima-MKS4-100v,Capacitor-Wima-MKS4-63v,Capacitor-Wima-MKS4-50v,Capacitor-Wima-MKS2-400v,Capacitor-Wima-MKS2-250v,Capacitor-Wima-MKS02-100v,Capacitor-Wima-MKS2-100v,Capacitor-Wima-MKS02-63v,Capacitor-Wima-MKS2-63v,Capacitor-Wima-MKS02-50v,Capacitor-Wima-MKS2-50v,Capacitor-Wima-MKS2-16v,Capacitor-Wima-MKP10-2000v,Capacitor-Wima-MKP10-1600v,Capacitor-Wima-MKP10-1000v,Capacitor-Wima-MKP10-630v,Capacitor-Wima-MKP10-400v,Capacitor-Wima-MKP10-250v,Capacitor-Wima-MKP10-160v,Capacitor-Wima-MKP4-1000v,Capacitor-Wima-MKP4-630v,Capacitor-Wima-MKP4-400v,Capacitor-Wima-MKP4-250v,Capacitor-Wima-MKP2-630v,Capacitor-Wima-MKP2-400v,Capacitor-Wima-MKP2-250v,Capacitor-Wima-MKP2-100v,Capacitor-Wima-MKM4-400v,Capacitor-Wima-MKM4-250v,Capacitor-Wima-MKM2-250v,Capacitor-Wima-MKM2-100v,Capacitor-Wima-FKS3-630v,Capacitor-Wima-FKS3-400v,Capacitor-Wima-FKS3-250v,Capacitor-Wima-FKS3-160v,Capacitor-Wima-FKS3-100v,Capacitor-Wima-FKS2-400v,Capacitor-Wima-FKS2-250v,Capacitor-Wima-FKS2-100v,Capacitor-Wima-FKP3-1000v,Capacitor-Wima-FKP3-630v,Capacitor-Wima-FKP3-400v,Capacitor-Wima-FKP3-250v,Capacitor-Wima-FKP3-160v,Capacitor-Wima-FKP3-100v,Capacitor-Wima-FKP2-1000v,Capacitor-Wima-FKP2-800v,Capacitor-Wima-FKP2-630v,Capacitor-Wima-FKP2-400v,Capacitor-Wima-FKP2-250v,Capacitor-Wima-FKP2-100v,Capacitor-Wima-FKP2-63v,Capacitor-Wima-FKP1-6000v,Capacitor-Wima-FKP1-4000v,Capacitor-Wima-FKP1-2000v,Capacitor-Wima-FKP1-1600v,Capacitor-Wima-FKP1-1250v,Capacitor-Wima-FKP1-1000v,Capacitor-Wima-FKP1-630v,Capacitor-Wima-FKP1-400v,Capacitor-Wima-FKM3-400v,Capacitor-Wima-FKM3-250v,Capacitor-Wima-FKM3-160v,Capacitor-Wima-FKM2-400v,Capacitor-Wima-FKM2-250v,Capacitor-Wima-FKM2-100v,calmicro,californiamicro,bx_24,bv_20,butterfly9,burr-brown-ads8341,burr-brown-3,burr-brown-2,burr-brown,brooktre,bourns,blueradio-br-sc30a,bluegiga,basicx_chips,basicx,basic_stamps,basicstamp2,axis,avr-4,avr-3,avr-2,avr-1,avr32,avr,aurel,attiny24_44_84,attiny13,atmel_prototype_header,atmel-2005,atmel-1,atmel89cxxxx,atmel,atmega8,atf1502als,atarilynx,at91sam9261,at90can128,at89x52,asix,ap_vco,ap_transformer,ap_saw,ap_rc_0402,ap_mixernew,ap_lna,analog_devices_gaui,analog-devices-dds,analog-devices-current-shunt-monitors,analog-devices2,analog-devices,analog_device_adxl202e,anadigm-1,amphenol-simlock,am-hrrn-xxx,amd_taxi,amd-mach,AMD_ELAN_SC_520,amber_bnc_iv,altera-ep3c40f484,altera-cycloneii,altera-2,altera,alps_blue_rk-27_single,allegro,akm,agilent-infrared,adxrs300,adxl320,adxl311,adxl103_203e,adxl,advsocket-computer,adv7202,aduc841,aduc816,ads11xx,adns-2610,ad74111_adg3304,ad22151,ad9851,ad9834,ad9235,ad8018,ad7710,ad7709,ad725,ad633,ad624,ad620,ad,abi-lcd,751xx,648a40-01-tsop40--14mm,78xx_with_heatsink,74xx-little-us,74xx-eu,74hc(t)4046,74ah,65xxx,40xx,29le010,20f001n,7sh,3M,con_conec,1wire,mcp120-130,at91sam7sxxx-au,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,contrib,valves
+EELAYER 43  0
+EELAYER END
+$Descr A4 11700 8267
+Sheet 1 1
+Title ""
+Date "9 apr 2010"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Kmarq B 4600 2800 "Warning Pin passive Unconnected" F=1
+Kmarq B 4600 2900 "Warning Pin passive Unconnected" F=1
+Kmarq B 4600 3200 "Warning Pin passive Unconnected" F=1
+Kmarq B 4600 3400 "Warning Pin passive Unconnected" F=1
+Kmarq B 4600 3700 "Warning Pin passive Unconnected" F=1
+Kmarq B 4600 4000 "Warning Pin power_in Unconnected" F=1
+Kmarq B 4600 4200 "Warning Pin power_in Unconnected" F=1
+Kmarq B 4600 4400 "Warning Pin power_in Unconnected" F=1
+Kmarq B 4600 4500 "Warning Pin power_in Unconnected" F=1
+Kmarq B 4600 4600 "Warning Pin power_in Unconnected" F=1
+Kmarq B 4600 4800 "Warning Pin power_in Unconnected" F=1
+Kmarq B 4600 5000 "Warning Pin power_in Unconnected" F=1
+Kmarq B 4600 5200 "Warning Pin power_in Unconnected" F=1
+Kmarq B 4600 5300 "Warning Pin power_in Unconnected" F=1
+Kmarq B 4600 5400 "Warning Pin power_in Unconnected" F=1
+Kmarq B 4600 5600 "Warning Pin power_in Unconnected" F=1
+Kmarq B 4600 5700 "Warning Pin power_in Unconnected" F=1
+Kmarq B 4600 5800 "Warning Pin power_in Unconnected" F=1
+Kmarq B 4600 5900 "Warning Pin power_in Unconnected" F=1
+Kmarq B 7000 1600 "Warning Pin BiDi Unconnected" F=1
+Kmarq B 7000 1700 "Warning Pin BiDi Unconnected" F=1
+Kmarq B 7000 1800 "Warning Pin BiDi Unconnected" F=1
+Kmarq B 7000 1900 "Warning Pin BiDi Unconnected" F=1
+Kmarq B 7000 2000 "Warning Pin BiDi Unconnected" F=1
+Kmarq B 7000 2100 "Warning Pin BiDi Unconnected" F=1
+Kmarq B 7000 2200 "Warning Pin BiDi Unconnected" F=1
+Kmarq B 7000 2300 "Warning Pin BiDi Unconnected" F=1
+Kmarq B 7000 2400 "Warning Pin BiDi Unconnected" F=1
+Kmarq B 7000 2500 "Warning Pin BiDi Unconnected" F=1
+Kmarq B 7000 2600 "Warning Pin BiDi Unconnected" F=1
+Kmarq B 7000 2700 "Warning Pin BiDi Unconnected" F=1
+Kmarq B 7000 2800 "Warning Pin BiDi Unconnected" F=1
+Kmarq B 7000 2900 "Warning Pin BiDi Unconnected" F=1
+Kmarq B 7000 3000 "Warning Pin BiDi Unconnected" F=1
+Kmarq B 7000 3100 "Warning Pin BiDi Unconnected" F=1
+Kmarq B 7000 3200 "Warning Pin BiDi Unconnected" F=1
+Kmarq B 7000 3300 "Warning Pin BiDi Unconnected" F=1
+Kmarq B 7000 3400 "Warning Pin BiDi Unconnected" F=1
+Kmarq B 7000 3500 "Warning Pin BiDi Unconnected" F=1
+Kmarq B 7000 3600 "Warning Pin BiDi Unconnected" F=1
+Kmarq B 7000 3700 "Warning Pin BiDi Unconnected" F=1
+Kmarq B 7000 3800 "Warning Pin BiDi Unconnected" F=1
+Kmarq B 7000 3900 "Warning Pin BiDi Unconnected" F=1
+Kmarq B 7000 4000 "Warning Pin BiDi Unconnected" F=1
+Kmarq B 7000 4100 "Warning Pin BiDi Unconnected" F=1
+Kmarq B 7000 4200 "Warning Pin BiDi Unconnected" F=1
+Kmarq B 7000 4300 "Warning Pin BiDi Unconnected" F=1
+Kmarq B 7000 4400 "Warning Pin BiDi Unconnected" F=1
+Kmarq B 7000 4500 "Warning Pin BiDi Unconnected" F=1
+Kmarq B 7000 4600 "Warning Pin BiDi Unconnected" F=1
+Kmarq B 7000 4700 "Warning Pin BiDi Unconnected" F=1
+Kmarq B 7000 5000 "Warning Pin passive Unconnected" F=1
+Kmarq B 7000 5100 "Warning Pin passive Unconnected" F=1
+Kmarq B 7000 5200 "Warning Pin passive Unconnected" F=1
+Kmarq B 7000 5300 "Warning Pin passive Unconnected" F=1
+Kmarq B 7000 5500 "Warning Pin passive Unconnected" F=1
+Kmarq B 1500 1800 "Warning Pin passive Unconnected" F=1
+Kmarq B 1500 1900 "Warning Pin passive Unconnected" F=1
+Kmarq B 2300 2050 "Warning Pin power_in not driven (Net 9)" F=1
+Kmarq B 2400 750  "Warning Pin power_in not driven (Net 8)" F=1
+Entry Wire Line
+	1400 2250 1500 2350
+Entry Wire Line
+	1300 2250 1400 2350
+Entry Wire Line
+	1200 2250 1300 2350
+Entry Wire Line
+	1000 2250 1100 2350
+Wire Bus Line
+	4250 2000 4250 2550
+Wire Bus Line
+	4250 2550 1500 2550
+Wire Bus Line
+	1500 2550 1500 2350
+Wire Bus Line
+	1500 2350 1100 2350
+Wire Wire Line
+	4600 2300 4350 2300
+Wire Wire Line
+	4600 2100 4350 2100
+Connection ~ 1400 1400
+Wire Wire Line
+	1400 1400 1400 2250
+Wire Wire Line
+	1200 2250 1200 1200
+Wire Wire Line
+	900  1500 900  1400
+Wire Wire Line
+	900  1500 1500 1500
+Wire Wire Line
+	1500 1600 750  1600
+Wire Wire Line
+	900  1400 1500 1400
+Wire Wire Line
+	1500 1300 1050 1300
+Wire Wire Line
+	1200 1200 1500 1200
+Wire Wire Line
+	2400 750  2400 1000
+Wire Wire Line
+	2400 1000 2300 1000
+Wire Wire Line
+	1500 1100 1350 1100
+Connection ~ 2300 1800
+Connection ~ 2300 1600
+Connection ~ 2300 1400
+Connection ~ 2300 1200
+Connection ~ 3450 2250
+Wire Wire Line
+	3600 2250 3450 2250
+Wire Wire Line
+	4000 1600 3950 1600
+Wire Wire Line
+	3450 2300 3450 2000
+Wire Wire Line
+	3450 2000 3350 2000
+Connection ~ 3600 1800
+Wire Wire Line
+	3350 1800 4600 1800
+Wire Wire Line
+	3950 1600 3950 1100
+Wire Wire Line
+	4600 1700 4400 1700
+Wire Wire Line
+	3350 1600 3350 1300
+Wire Wire Line
+	3350 1300 3950 1300
+Connection ~ 3950 1300
+Connection ~ 3600 1300
+Wire Wire Line
+	4400 1700 4400 1600
+Wire Wire Line
+	3600 1850 3600 1800
+Connection ~ 2300 1300
+Connection ~ 2300 1500
+Connection ~ 2300 1700
+Wire Wire Line
+	2300 2050 2300 1100
+Connection ~ 2300 1900
+Wire Wire Line
+	1500 1000 1500 600 
+Wire Wire Line
+	2400 800  1500 800 
+Connection ~ 1500 800 
+Connection ~ 2400 800 
+Wire Wire Line
+	1200 600  1200 700 
+Connection ~ 1350 600 
+Wire Wire Line
+	1050 600  1050 800 
+Connection ~ 1200 600 
+Wire Wire Line
+	900  600  900  900 
+Connection ~ 1050 600 
+Wire Wire Line
+	750  1100 750  600 
+Wire Wire Line
+	750  600  1500 600 
+Connection ~ 900  600 
+Wire Wire Line
+	1500 1700 1050 1700
+Wire Wire Line
+	1300 1300 1300 2250
+Connection ~ 1300 1300
+Wire Wire Line
+	1000 1600 1000 2250
+Connection ~ 1000 1600
+Wire Wire Line
+	4600 2200 4350 2200
+Wire Wire Line
+	4600 2400 4350 2400
+Entry Wire Line
+	4250 2300 4350 2400
+Entry Wire Line
+	4250 2200 4350 2300
+Entry Wire Line
+	4250 2100 4350 2200
+Entry Wire Line
+	4250 2000 4350 2100
+Text Label 4350 2400 0    60   ~
+TDO
+Text Label 4350 2300 0    60   ~
+TCK
+Text Label 4350 2200 0    60   ~
+TMS
+Text Label 4350 2100 0    60   ~
+TDI
+Text Label 1000 2250 1    60   ~
+TDO
+Text Label 1400 2250 1    60   ~
+TCK
+Text Label 1300 2250 1    60   ~
+TMS
+Text Label 1200 2250 1    60   ~
+TDI
+Text Label 1050 1700 0    60   ~
+RST
+Text Label 3800 1800 0    60   ~
+RST
+$Comp
+L R R1
+U 1 1 4BBF608B
+P 750 1350
+F 0 "R1" V 830 1350 50  0000 C C
+F 1 "47K" V 750 1350 50  0000 C C
+	1    750  1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 4BBF605E
+P 900 1150
+F 0 "R2" V 980 1150 50  0000 C C
+F 1 "47K" V 900 1150 50  0000 C C
+	1    900  1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 4BBF602F
+P 1050 1050
+F 0 "R3" V 1130 1050 50  0000 C C
+F 1 "47K" V 1050 1050 50  0000 C C
+	1    1050 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R4
+U 1 1 4BBF5FA7
+P 1200 950
+F 0 "R4" V 1280 950 50  0000 C C
+F 1 "47K" V 1200 950 50  0000 C C
+	1    1200 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 4BBF5F95
+P 2300 2050
+F 0 "#PWR01" H 2300 2050 30  0001 C C
+F 1 "GND" H 2300 1980 30  0001 C C
+	1    2300 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R5
+U 1 1 4BBF5EE6
+P 1350 850
+F 0 "R5" V 1430 850 50  0000 C C
+F 1 "47K" V 1350 850 50  0000 C C
+	1    1350 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3,3V #PWR02
+U 1 1 4BBF5EBC
+P 2400 750
+F 0 "#PWR02" H 2400 710 30  0001 C C
+F 1 "+3,3V" H 2400 860 30  0000 C C
+	1    2400 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L J3MM J1
+U 1 1 4BBF5E72
+P 3600 2050
+F 0 "J1" H 3500 2125 50  0000 L B
+F 1 "J3MM" H 3500 1950 50  0000 L B
+F 2 "jumper-03" H 3600 2200 50  0001 C C
+	1    3600 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L J3MM J2
+U 1 1 4BBF5E6B
+P 4200 1600
+F 0 "J2" H 4100 1675 50  0000 L B
+F 1 "J3MM" H 4100 1500 50  0000 L B
+F 2 "jumper-03" H 4200 1750 50  0001 C C
+	1    4200 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_10X2 P1
+U 1 1 4BBF5D63
+P 1900 1450
+F 0 "P1" H 1900 2000 60  0000 C C
+F 1 "CONN_10X2" V 1900 1350 50  0000 C C
+	1    1900 1450
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4600 2500
+NoConn ~ 4600 1600
+$Comp
+L GND #PWR03
+U 1 1 4BBF5952
+P 3450 2300
+F 0 "#PWR03" H 3450 2300 30  0001 C C
+F 1 "GND" H 3450 2230 30  0001 C C
+	1    3450 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R6
+U 1 1 4BBF58D8
+P 3600 1550
+F 0 "R6" V 3680 1550 50  0000 C C
+F 1 "10K" V 3600 1550 50  0000 C C
+	1    3600 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCP120/130 IC1
+U 1 1 4BBF5877
+P 2850 1800
+F 0 "IC1" H 2750 2200 50  0000 L B
+F 1 "MCP120/130" H 2750 1400 50  0000 L B
+F 2 "mcp120-130-SOT23" H 2850 1950 50  0001 C C
+	1    2850 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3,3V #PWR04
+U 1 1 4BBF55C0
+P 3950 1100
+F 0 "#PWR04" H 3950 1060 30  0001 C C
+F 1 "+3,3V" H 3950 1210 30  0000 C C
+	1    3950 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L AT91SAM7S512/256/128/64/321-AU IC2
+U 1 1 4BBF54AA
+P 5800 3700
+F 0 "IC2" H 4800 6000 50  0000 L B
+F 1 "AT91SAM7S512/256/128/64/321-AU" H 4800 1300 50  0000 L B
+F 2 "at91sam7sxxx-au-LQFP64" H 5800 3850 50  0001 C C
+	1    5800 3700
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

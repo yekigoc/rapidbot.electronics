@@ -1,0 +1,35 @@
+EESchema-DOCLIB  Version 2.0  27/4/2010-00:30:07
+#
+$CMP C
+D Condensateur non polarise
+$ENDCMP
+#
+$CMP CONN_10X2
+D symbole general de connecteur
+K CONN
+$ENDCMP
+#
+$CMP CONN_2
+D Symbole general de connecteur
+K CONN
+$ENDCMP
+#
+$CMP CP
+D Condensateur polarise
+$ENDCMP
+#
+$CMP DIODESCH
+D Diode schottky
+K DEV DIODE
+$ENDCMP
+#
+$CMP NPN
+F transistors/bipolar/*.*
+$ENDCMP
+#
+$CMP R
+D Resistance
+K R DEV
+$ENDCMP
+#
+#End Doc Library

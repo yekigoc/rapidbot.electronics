@@ -1,0 +1,972 @@
+EESchema Schematic File Version 2
+LIBS:con_conec,vishay_tsal4400_bpw85c,vishay-1,vishay,analog_devices_gaui,analog-devices-dds,analog-devices-current-shunt-monitors,analog-devices2,analog-devices,analog_device_adxl202e,adxrs300,adxl320,adxl311,adxl103_203e,adxl,ad74111_adg3304,ad22151,ad9851,ad9834,ad9235,ad8018,ad7710,ad7709,ad725,ad633,ad624,ad620,ad,national_gaui,national-2,national,./local,linear-technology-3,linear-technology-2,linear-technology,linear4,linear3,linear2,chipcon,con-usb-3,con-usb-2,con-usb,power,1wire,mcp120-130,at91sam7sxxx-au,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,contrib,valves,./locator.cache
+EELAYER 24  0
+EELAYER END
+$Descr A4 11700 8267
+Sheet 3 3
+Title "Analogue part sch"
+Date "21 apr 2010"
+Rev "2.1"
+Comp "MPEI Robotics Laboratory"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	2350 1000 1550 1000
+Wire Wire Line
+	9150 3000 9650 3000
+Connection ~ 2150 1000
+Wire Wire Line
+	2400 1800 2050 1800
+Wire Wire Line
+	2150 2400 1000 2400
+Wire Wire Line
+	1000 1500 1000 1600
+Wire Wire Line
+	1550 1850 1550 1800
+Connection ~ 2150 1800
+Wire Wire Line
+	2150 1500 2150 1850
+Wire Wire Line
+	1550 1800 1650 1800
+Wire Wire Line
+	1000 1600 1250 1600
+Wire Wire Line
+	1200 1500 1200 1600
+Connection ~ 1200 1600
+Wire Wire Line
+	1550 2350 1550 2400
+Connection ~ 1550 2400
+Wire Wire Line
+	2150 2350 2150 2450
+Wire Wire Line
+	2150 2450 2200 2450
+Connection ~ 2150 2400
+Wire Wire Line
+	1550 1400 1550 900 
+Wire Wire Line
+	1550 900  1000 900 
+Wire Wire Line
+	1000 900  1000 1000
+Connection ~ 1550 1000
+Wire Wire Line
+	1200 1000 1200 850 
+Connection ~ 4200 1000
+Wire Wire Line
+	4300 1000 3600 1000
+Wire Wire Line
+	4450 1800 4100 1800
+Wire Wire Line
+	4200 2400 3050 2400
+Wire Wire Line
+	3050 1500 3050 1600
+Wire Wire Line
+	3600 1850 3600 1800
+Connection ~ 4200 1800
+Wire Wire Line
+	4200 1500 4200 1850
+Wire Wire Line
+	3600 1800 3700 1800
+Wire Wire Line
+	3050 1600 3300 1600
+Wire Wire Line
+	3250 1500 3250 1600
+Connection ~ 3250 1600
+Wire Wire Line
+	3600 2350 3600 2400
+Connection ~ 3600 2400
+Wire Wire Line
+	4200 2350 4200 2450
+Wire Wire Line
+	4200 2450 4250 2450
+Connection ~ 4200 2400
+Wire Wire Line
+	3600 1400 3600 900 
+Wire Wire Line
+	3600 900  3050 900 
+Wire Wire Line
+	3050 900  3050 1000
+Connection ~ 3600 1000
+Wire Wire Line
+	3250 1000 3250 850 
+Connection ~ 2150 3050
+Wire Wire Line
+	2250 3050 1550 3050
+Wire Wire Line
+	2400 3850 2050 3850
+Wire Wire Line
+	2150 4450 1000 4450
+Wire Wire Line
+	1000 3550 1000 3650
+Wire Wire Line
+	1550 3900 1550 3850
+Connection ~ 2150 3850
+Wire Wire Line
+	2150 3550 2150 3900
+Wire Wire Line
+	1550 3850 1650 3850
+Wire Wire Line
+	1000 3650 1250 3650
+Wire Wire Line
+	1200 3550 1200 3650
+Connection ~ 1200 3650
+Wire Wire Line
+	1550 4400 1550 4450
+Connection ~ 1550 4450
+Wire Wire Line
+	2150 4400 2150 4500
+Wire Wire Line
+	2150 4500 2200 4500
+Connection ~ 2150 4450
+Wire Wire Line
+	1550 3450 1550 2950
+Wire Wire Line
+	1550 2950 1000 2950
+Wire Wire Line
+	1000 2950 1000 3050
+Connection ~ 1550 3050
+Wire Wire Line
+	1200 3050 1200 2900
+Connection ~ 4200 3050
+Wire Wire Line
+	4300 3050 3600 3050
+Wire Wire Line
+	4450 3850 4100 3850
+Wire Wire Line
+	4200 4450 3050 4450
+Wire Wire Line
+	3050 3550 3050 3650
+Wire Wire Line
+	3600 3900 3600 3850
+Connection ~ 4200 3850
+Wire Wire Line
+	4200 3550 4200 3900
+Wire Wire Line
+	3600 3850 3700 3850
+Wire Wire Line
+	3050 3650 3300 3650
+Wire Wire Line
+	3250 3550 3250 3650
+Connection ~ 3250 3650
+Wire Wire Line
+	3600 4400 3600 4450
+Connection ~ 3600 4450
+Wire Wire Line
+	4200 4400 4200 4500
+Wire Wire Line
+	4200 4500 4250 4500
+Connection ~ 4200 4450
+Wire Wire Line
+	3600 3450 3600 2950
+Wire Wire Line
+	3600 2950 3050 2950
+Wire Wire Line
+	3050 2950 3050 3050
+Connection ~ 3600 3050
+Wire Wire Line
+	3250 3050 3250 2900
+Connection ~ 6300 1000
+Wire Wire Line
+	6400 1000 5700 1000
+Wire Wire Line
+	6550 1800 6200 1800
+Wire Wire Line
+	6300 2400 5150 2400
+Wire Wire Line
+	5150 1500 5150 1600
+Wire Wire Line
+	5700 1850 5700 1800
+Connection ~ 6300 1800
+Wire Wire Line
+	6300 1500 6300 1850
+Wire Wire Line
+	5700 1800 5800 1800
+Wire Wire Line
+	5150 1600 5400 1600
+Wire Wire Line
+	5350 1500 5350 1600
+Connection ~ 5350 1600
+Wire Wire Line
+	5700 2350 5700 2400
+Connection ~ 5700 2400
+Wire Wire Line
+	6300 2350 6300 2450
+Wire Wire Line
+	6300 2450 6350 2450
+Connection ~ 6300 2400
+Wire Wire Line
+	5700 1400 5700 900 
+Wire Wire Line
+	5700 900  5150 900 
+Wire Wire Line
+	5150 900  5150 1000
+Connection ~ 5700 1000
+Wire Wire Line
+	5350 1000 5350 850 
+Connection ~ 6300 3050
+Wire Wire Line
+	6400 3050 5700 3050
+Wire Wire Line
+	6550 3850 6200 3850
+Wire Wire Line
+	6300 4450 5150 4450
+Wire Wire Line
+	5150 3550 5150 3650
+Wire Wire Line
+	5700 3900 5700 3850
+Connection ~ 6300 3850
+Wire Wire Line
+	6300 3550 6300 3900
+Wire Wire Line
+	5700 3850 5800 3850
+Wire Wire Line
+	5150 3650 5400 3650
+Wire Wire Line
+	5350 3550 5350 3650
+Connection ~ 5350 3650
+Wire Wire Line
+	5700 4400 5700 4450
+Connection ~ 5700 4450
+Wire Wire Line
+	6300 4400 6300 4500
+Wire Wire Line
+	6300 4500 6350 4500
+Connection ~ 6300 4450
+Wire Wire Line
+	5700 3450 5700 2950
+Wire Wire Line
+	5700 2950 5150 2950
+Wire Wire Line
+	5150 2950 5150 3050
+Connection ~ 5700 3050
+Wire Wire Line
+	5350 3050 5350 2900
+Connection ~ 8400 1000
+Wire Wire Line
+	8500 1000 7800 1000
+Wire Wire Line
+	8650 1800 8300 1800
+Wire Wire Line
+	8400 2400 7250 2400
+Wire Wire Line
+	7250 1500 7250 1600
+Wire Wire Line
+	7800 1850 7800 1800
+Connection ~ 8400 1800
+Wire Wire Line
+	8400 1500 8400 1850
+Wire Wire Line
+	7800 1800 7900 1800
+Wire Wire Line
+	7250 1600 7500 1600
+Wire Wire Line
+	7450 1500 7450 1600
+Connection ~ 7450 1600
+Wire Wire Line
+	7800 2350 7800 2400
+Connection ~ 7800 2400
+Wire Wire Line
+	8400 2350 8400 2450
+Wire Wire Line
+	8400 2450 8450 2450
+Connection ~ 8400 2400
+Wire Wire Line
+	7800 1400 7800 900 
+Wire Wire Line
+	7800 900  7250 900 
+Wire Wire Line
+	7250 900  7250 1000
+Connection ~ 7800 1000
+Wire Wire Line
+	7450 1000 7450 850 
+Connection ~ 8400 3050
+Wire Wire Line
+	8500 3050 7800 3050
+Wire Wire Line
+	8650 3850 8300 3850
+Wire Wire Line
+	8400 4450 7250 4450
+Wire Wire Line
+	7250 3550 7250 3650
+Wire Wire Line
+	7800 3900 7800 3850
+Connection ~ 8400 3850
+Wire Wire Line
+	8400 3550 8400 3900
+Wire Wire Line
+	7800 3850 7900 3850
+Wire Wire Line
+	7250 3650 7500 3650
+Wire Wire Line
+	7450 3550 7450 3650
+Connection ~ 7450 3650
+Wire Wire Line
+	7800 4400 7800 4450
+Connection ~ 7800 4450
+Wire Wire Line
+	8400 4400 8400 4500
+Wire Wire Line
+	8400 4500 8450 4500
+Connection ~ 8400 4450
+Wire Wire Line
+	7800 3450 7800 2950
+Wire Wire Line
+	7800 2950 7250 2950
+Wire Wire Line
+	7250 2950 7250 3050
+Connection ~ 7800 3050
+Wire Wire Line
+	7450 3050 7450 2900
+Wire Wire Line
+	9200 3150 9650 3150
+Text HLabel 9650 3150 2    60   Input
+V-
+Text HLabel 9650 3000 2    60   Input
+V+
+Text Label 9200 3150 0    60   ~
+V-
+Text Label 9150 3000 0    60   ~
+V+
+Text Label 2200 4500 0    60   ~
+V-
+Text Label 2200 2450 0    60   ~
+V-
+Text Label 4250 4500 0    60   ~
+V-
+Text Label 4250 2450 0    60   ~
+V-
+Text Label 6350 4500 0    60   ~
+V-
+Text Label 8450 4500 0    60   ~
+V-
+Text Label 8500 3050 0    60   ~
+V+
+Text Label 6400 3050 0    60   ~
+V+
+Text Label 4300 3050 0    60   ~
+V+
+Text Label 2250 3050 0    60   ~
+V+
+Text Label 2350 1000 0    60   ~
+V+
+Text Label 4300 1000 0    60   ~
+V+
+Text Label 6350 2450 0    60   ~
+V-
+Text Label 6400 1000 0    60   ~
+V+
+Text Label 8450 2450 0    60   ~
+V-
+Text Label 8500 1000 0    60   ~
+V+
+Text HLabel 7450 2900 3    60   Input
+AR6
+Text HLabel 8650 3850 2    60   Input
+TOAMP6
+$Comp
+L PHOTODIODE VD8
+U 1 1 4BCF6DD3
+P 7250 4050
+F 0 "VD8" H 7000 4400 60  0000 C C
+F 1 "BPW41N" H 7250 4250 60  0000 C C
+	1    7250 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L NPN Q8
+U 1 1 4BCF6DD2
+P 7700 3650
+F 0 "Q8" H 7850 3650 50  0000 C C
+F 1 "BC848" H 7602 3800 50  0000 C C
+	1    7700 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R51
+U 1 1 4BCF6DD1
+P 8400 3300
+F 0 "R51" V 8480 3300 50  0000 C C
+F 1 "5K" V 8400 3300 50  0000 C C
+	1    8400 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R52
+U 1 1 4BCF6DD0
+P 8400 4150
+F 0 "R52" V 8480 4150 50  0000 C C
+F 1 "5K" V 8400 4150 50  0000 C C
+	1    8400 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R46
+U 1 1 4BCF6DCF
+P 7450 3300
+F 0 "R46" V 7530 3300 50  0000 C C
+F 1 "10K" V 7450 3300 50  0000 C C
+	1    7450 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R48
+U 1 1 4BCF6DCE
+P 7800 4150
+F 0 "R48" V 7880 4150 50  0000 C C
+F 1 "10K" V 7800 4150 50  0000 C C
+	1    7800 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R44
+U 1 1 4BCF6DCD
+P 7250 3300
+F 0 "R44" V 7330 3300 50  0000 C C
+F 1 "400K" V 7250 3300 50  0000 C C
+	1    7250 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C30
+U 1 1 4BCF6DCC
+P 8100 3850
+F 0 "C30" H 8150 3950 50  0000 L C
+F 1 "154" H 8150 3750 50  0000 L C
+	1    8100 3850
+	0    1    1    0   
+$EndComp
+Text HLabel 7450 850  3    60   Input
+AR2
+Text HLabel 8650 1800 2    60   Input
+TOAMP2
+$Comp
+L PHOTODIODE VD7
+U 1 1 4BCF6DCB
+P 7250 2000
+F 0 "VD7" H 7000 2350 60  0000 C C
+F 1 "BPW41N" H 7250 2200 60  0000 C C
+	1    7250 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L NPN Q7
+U 1 1 4BCF6DCA
+P 7700 1600
+F 0 "Q7" H 7850 1600 50  0000 C C
+F 1 "BC848" H 7602 1750 50  0000 C C
+	1    7700 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R49
+U 1 1 4BCF6DC9
+P 8400 1250
+F 0 "R49" V 8480 1250 50  0000 C C
+F 1 "5K" V 8400 1250 50  0000 C C
+	1    8400 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R50
+U 1 1 4BCF6DC8
+P 8400 2100
+F 0 "R50" V 8480 2100 50  0000 C C
+F 1 "5K" V 8400 2100 50  0000 C C
+	1    8400 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R45
+U 1 1 4BCF6DC7
+P 7450 1250
+F 0 "R45" V 7530 1250 50  0000 C C
+F 1 "10K" V 7450 1250 50  0000 C C
+	1    7450 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R47
+U 1 1 4BCF6DC6
+P 7800 2100
+F 0 "R47" V 7880 2100 50  0000 C C
+F 1 "10K" V 7800 2100 50  0000 C C
+	1    7800 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R43
+U 1 1 4BCF6DC5
+P 7250 1250
+F 0 "R43" V 7330 1250 50  0000 C C
+F 1 "400K" V 7250 1250 50  0000 C C
+	1    7250 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C29
+U 1 1 4BCF6DC4
+P 8100 1800
+F 0 "C29" H 8150 1900 50  0000 L C
+F 1 "154" H 8150 1700 50  0000 L C
+	1    8100 1800
+	0    1    1    0   
+$EndComp
+Text HLabel 5350 2900 3    60   Input
+AR5
+Text HLabel 6550 3850 2    60   Input
+TOAMP5
+$Comp
+L PHOTODIODE VD6
+U 1 1 4BCF6DC3
+P 5150 4050
+F 0 "VD6" H 4900 4400 60  0000 C C
+F 1 "BPW41N" H 5150 4250 60  0000 C C
+	1    5150 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L NPN Q6
+U 1 1 4BCF6DC2
+P 5600 3650
+F 0 "Q6" H 5750 3650 50  0000 C C
+F 1 "BC848" H 5502 3800 50  0000 C C
+	1    5600 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R41
+U 1 1 4BCF6DC1
+P 6300 3300
+F 0 "R41" V 6380 3300 50  0000 C C
+F 1 "5K" V 6300 3300 50  0000 C C
+	1    6300 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R42
+U 1 1 4BCF6DC0
+P 6300 4150
+F 0 "R42" V 6380 4150 50  0000 C C
+F 1 "5K" V 6300 4150 50  0000 C C
+	1    6300 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R36
+U 1 1 4BCF6DBF
+P 5350 3300
+F 0 "R36" V 5430 3300 50  0000 C C
+F 1 "10K" V 5350 3300 50  0000 C C
+	1    5350 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R38
+U 1 1 4BCF6DBE
+P 5700 4150
+F 0 "R38" V 5780 4150 50  0000 C C
+F 1 "10K" V 5700 4150 50  0000 C C
+	1    5700 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R34
+U 1 1 4BCF6DBD
+P 5150 3300
+F 0 "R34" V 5230 3300 50  0000 C C
+F 1 "400K" V 5150 3300 50  0000 C C
+	1    5150 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C28
+U 1 1 4BCF6DBC
+P 6000 3850
+F 0 "C28" H 6050 3950 50  0000 L C
+F 1 "154" H 6050 3750 50  0000 L C
+	1    6000 3850
+	0    1    1    0   
+$EndComp
+Text HLabel 5350 850  3    60   Input
+AR3
+Text HLabel 6550 1800 2    60   Input
+TOAMP3
+$Comp
+L PHOTODIODE VD5
+U 1 1 4BCF6DBB
+P 5150 2000
+F 0 "VD5" H 4900 2350 60  0000 C C
+F 1 "BPW41N" H 5150 2200 60  0000 C C
+	1    5150 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L NPN Q5
+U 1 1 4BCF6DBA
+P 5600 1600
+F 0 "Q5" H 5750 1600 50  0000 C C
+F 1 "BC848" H 5502 1750 50  0000 C C
+	1    5600 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R39
+U 1 1 4BCF6DB9
+P 6300 1250
+F 0 "R39" V 6380 1250 50  0000 C C
+F 1 "5K" V 6300 1250 50  0000 C C
+	1    6300 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R40
+U 1 1 4BCF6DB8
+P 6300 2100
+F 0 "R40" V 6380 2100 50  0000 C C
+F 1 "5K" V 6300 2100 50  0000 C C
+	1    6300 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R35
+U 1 1 4BCF6DB7
+P 5350 1250
+F 0 "R35" V 5430 1250 50  0000 C C
+F 1 "10K" V 5350 1250 50  0000 C C
+	1    5350 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R37
+U 1 1 4BCF6DB6
+P 5700 2100
+F 0 "R37" V 5780 2100 50  0000 C C
+F 1 "10K" V 5700 2100 50  0000 C C
+	1    5700 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R33
+U 1 1 4BCF6DB5
+P 5150 1250
+F 0 "R33" V 5230 1250 50  0000 C C
+F 1 "400K" V 5150 1250 50  0000 C C
+	1    5150 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C27
+U 1 1 4BCF6DB4
+P 6000 1800
+F 0 "C27" H 6050 1900 50  0000 L C
+F 1 "154" H 6050 1700 50  0000 L C
+	1    6000 1800
+	0    1    1    0   
+$EndComp
+Text HLabel 3250 2900 3    60   Input
+AR4
+Text HLabel 4450 3850 2    60   Input
+TOAMP4
+$Comp
+L PHOTODIODE VD4
+U 1 1 4BCF6DB3
+P 3050 4050
+F 0 "VD4" H 2800 4400 60  0000 C C
+F 1 "BPW41N" H 3050 4250 60  0000 C C
+	1    3050 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L NPN Q4
+U 1 1 4BCF6DB2
+P 3500 3650
+F 0 "Q4" H 3650 3650 50  0000 C C
+F 1 "BC848" H 3402 3800 50  0000 C C
+	1    3500 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R31
+U 1 1 4BCF6DB1
+P 4200 3300
+F 0 "R31" V 4280 3300 50  0000 C C
+F 1 "5K" V 4200 3300 50  0000 C C
+	1    4200 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R32
+U 1 1 4BCF6DB0
+P 4200 4150
+F 0 "R32" V 4280 4150 50  0000 C C
+F 1 "5K" V 4200 4150 50  0000 C C
+	1    4200 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R26
+U 1 1 4BCF6DAF
+P 3250 3300
+F 0 "R26" V 3330 3300 50  0000 C C
+F 1 "10K" V 3250 3300 50  0000 C C
+	1    3250 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R28
+U 1 1 4BCF6DAE
+P 3600 4150
+F 0 "R28" V 3680 4150 50  0000 C C
+F 1 "10K" V 3600 4150 50  0000 C C
+	1    3600 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R24
+U 1 1 4BCF6DAD
+P 3050 3300
+F 0 "R24" V 3130 3300 50  0000 C C
+F 1 "400K" V 3050 3300 50  0000 C C
+	1    3050 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C26
+U 1 1 4BCF6DAC
+P 3900 3850
+F 0 "C26" H 3950 3950 50  0000 L C
+F 1 "154" H 3950 3750 50  0000 L C
+	1    3900 3850
+	0    1    1    0   
+$EndComp
+Text HLabel 1200 2900 3    60   Input
+AR7
+Text HLabel 2400 3850 2    60   Input
+TOAMP7
+$Comp
+L PHOTODIODE VD2
+U 1 1 4BCF6DA3
+P 1000 4050
+F 0 "VD2" H 750 4400 60  0000 C C
+F 1 "BPW41N" H 1000 4250 60  0000 C C
+	1    1000 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L NPN Q2
+U 1 1 4BCF6DA2
+P 1450 3650
+F 0 "Q2" H 1600 3650 50  0000 C C
+F 1 "BC848" H 1352 3800 50  0000 C C
+	1    1450 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R21
+U 1 1 4BCF6DA1
+P 2150 3300
+F 0 "R21" V 2230 3300 50  0000 C C
+F 1 "5K" V 2150 3300 50  0000 C C
+	1    2150 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R22
+U 1 1 4BCF6DA0
+P 2150 4150
+F 0 "R22" V 2230 4150 50  0000 C C
+F 1 "5K" V 2150 4150 50  0000 C C
+	1    2150 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R16
+U 1 1 4BCF6D9F
+P 1200 3300
+F 0 "R16" V 1280 3300 50  0000 C C
+F 1 "10K" V 1200 3300 50  0000 C C
+	1    1200 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R18
+U 1 1 4BCF6D9E
+P 1550 4150
+F 0 "R18" V 1630 4150 50  0000 C C
+F 1 "10K" V 1550 4150 50  0000 C C
+	1    1550 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R14
+U 1 1 4BCF6D9D
+P 1000 3300
+F 0 "R14" V 1080 3300 50  0000 C C
+F 1 "400K" V 1000 3300 50  0000 C C
+	1    1000 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C24
+U 1 1 4BCF6D9C
+P 1850 3850
+F 0 "C24" H 1900 3950 50  0000 L C
+F 1 "154" H 1900 3750 50  0000 L C
+	1    1850 3850
+	0    1    1    0   
+$EndComp
+Text HLabel 3250 850  3    60   Input
+AR1
+Text HLabel 4450 1800 2    60   Input
+TOAMP1
+$Comp
+L PHOTODIODE VD3
+U 1 1 4BCF6D9B
+P 3050 2000
+F 0 "VD3" H 2800 2350 60  0000 C C
+F 1 "BPW41N" H 3050 2200 60  0000 C C
+	1    3050 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L NPN Q3
+U 1 1 4BCF6D9A
+P 3500 1600
+F 0 "Q3" H 3650 1600 50  0000 C C
+F 1 "BC848" H 3402 1750 50  0000 C C
+	1    3500 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R29
+U 1 1 4BCF6D99
+P 4200 1250
+F 0 "R29" V 4280 1250 50  0000 C C
+F 1 "5K" V 4200 1250 50  0000 C C
+	1    4200 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R30
+U 1 1 4BCF6D98
+P 4200 2100
+F 0 "R30" V 4280 2100 50  0000 C C
+F 1 "5K" V 4200 2100 50  0000 C C
+	1    4200 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R25
+U 1 1 4BCF6D97
+P 3250 1250
+F 0 "R25" V 3330 1250 50  0000 C C
+F 1 "10K" V 3250 1250 50  0000 C C
+	1    3250 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R27
+U 1 1 4BCF6D96
+P 3600 2100
+F 0 "R27" V 3680 2100 50  0000 C C
+F 1 "10K" V 3600 2100 50  0000 C C
+	1    3600 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R23
+U 1 1 4BCF6D95
+P 3050 1250
+F 0 "R23" V 3130 1250 50  0000 C C
+F 1 "400K" V 3050 1250 50  0000 C C
+	1    3050 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C25
+U 1 1 4BCF6D94
+P 3900 1800
+F 0 "C25" H 3950 1900 50  0000 L C
+F 1 "154" H 3950 1700 50  0000 L C
+	1    3900 1800
+	0    1    1    0   
+$EndComp
+Text HLabel 1200 850  3    60   Input
+AR0
+Text HLabel 2400 1800 2    60   Input
+TOAMP0
+$Comp
+L PHOTODIODE VD1
+U 1 1 4BCF6BD4
+P 1000 2000
+F 0 "VD1" H 750 2350 60  0000 C C
+F 1 "BPW41N" H 1000 2200 60  0000 C C
+	1    1000 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L NPN Q1
+U 1 1 4BCF6BC3
+P 1450 1600
+F 0 "Q1" H 1600 1600 50  0000 C C
+F 1 "BC848" H 1352 1750 50  0000 C C
+	1    1450 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R19
+U 1 1 4BCF6BBA
+P 2150 1250
+F 0 "R19" V 2230 1250 50  0000 C C
+F 1 "5K" V 2150 1250 50  0000 C C
+	1    2150 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R20
+U 1 1 4BCF6BB5
+P 2150 2100
+F 0 "R20" V 2230 2100 50  0000 C C
+F 1 "5K" V 2150 2100 50  0000 C C
+	1    2150 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R15
+U 1 1 4BCF6BAE
+P 1200 1250
+F 0 "R15" V 1280 1250 50  0000 C C
+F 1 "10K" V 1200 1250 50  0000 C C
+	1    1200 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R17
+U 1 1 4BCF6BA7
+P 1550 2100
+F 0 "R17" V 1630 2100 50  0000 C C
+F 1 "10K" V 1550 2100 50  0000 C C
+	1    1550 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R13
+U 1 1 4BCF6BA3
+P 1000 1250
+F 0 "R13" V 1080 1250 50  0000 C C
+F 1 "400K" V 1000 1250 50  0000 C C
+	1    1000 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C23
+U 1 1 4BCF6B9D
+P 1850 1800
+F 0 "C23" H 1900 1900 50  0000 L C
+F 1 "154" H 1900 1700 50  0000 L C
+	1    1850 1800
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC
